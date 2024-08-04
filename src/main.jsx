@@ -15,7 +15,7 @@ import './index.scss';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-      <BrowserRouter>
+      <BrowserRouter basename='/node_fs99_front_Uzurch1k'>
         <HelmetProvider>
           <App />
         </HelmetProvider>
